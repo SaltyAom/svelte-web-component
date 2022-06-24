@@ -1,0 +1,13 @@
+native/node_modules
+native/dist
+native/example/react/node_modules
+native/example/react/dist
+native/example/vue/node_modules
+native/example/vue/dist
+
+web-component/node_modules
+web-component/dist
+web-component/example/react/node_modules
+web-component/example/react/dist
+web-component/example/svelte/node_modules
+web-component/example/svelte/dist

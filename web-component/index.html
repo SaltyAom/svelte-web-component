@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Svelte + TS + Vite App</title>
+        <style>
+            body {
+                margin: 0;
+            }
+
+            * {
+                box-sizing: border-box;
+            }
+
+            #playground {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 2.5em;
+                width: 100%;
+                min-height: 100vh;
+                padding: 4em;
+                background-color: #fafafa;
+            }
+        </style>
+    </head>
+    <body>
+        <main id="playground">
+            <paper-card
+                src="https://i.ytimg.com/vi/_35D5gvqDR8/maxresdefault.jpg"
+                alt="Takodachi"
+                title="Takodachi"
+            >
+                Takodachi designed by Ninomae Ina'nis
+            </paper-card>
+
+            <paper-counter></paper-counter>
+
+            <paper-compound>
+                <paper-card
+                    slot="up"
+                    src="https://i.ytimg.com/vi/_35D5gvqDR8/maxresdefault.jpg"
+                    alt="Takodachi"
+                >
+                    Takodachi
+                </paper-card>
+                <paper-counter slot="down"></paper-counter>
+            </paper-compound>
+        </main>
+        <script type="module" src="/src/main.ts"></script>
+    </body>
+</html>

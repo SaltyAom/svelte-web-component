@@ -1,0 +1,31 @@
+{
+    "name": "svelte-component",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "main": "./dist/svelte-component.umd.js",
+    "exports": "./dist/svelte-component.es.js",
+    "types": "./dist/main.d.ts",
+    "typings": "./dist/main.d.ts",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "check": "svelte-check --tsconfig ./tsconfig.json"
+    },
+    "devDependencies": {
+        "@rollup/plugin-typescript": "^8.3.3",
+        "@sveltejs/vite-plugin-svelte": "^1.0.0-next.30",
+        "@tsconfig/svelte": "^2.0.1",
+        "node-sass": "^7.0.1",
+        "sass": "^1.52.3",
+        "svelte": "^3.44.0",
+        "svelte-check": "^2.2.7",
+        "svelte-dts": "^0.3.7",
+        "svelte-preprocess": "^4.9.8",
+        "tslib": "^2.3.1",
+        "typescript": "^4.5.4",
+        "vite": "^2.9.9",
+        "vite-plugin-chunk-split": "^0.2.4"
+    }
+}

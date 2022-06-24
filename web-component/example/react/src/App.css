@@ -1,0 +1,12 @@
+#playground {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5em;
+    width: 100%;
+    min-height: 100vh;
+    padding: 4em;
+    background-color: #fafafa;
+    box-sizing: border-box;
+}
